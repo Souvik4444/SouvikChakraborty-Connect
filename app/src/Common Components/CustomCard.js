@@ -6,21 +6,14 @@ const CustomCard = () => {
     return (
         <View style={styles.container}>
             <View style={styles.topRightImagesContainer}>
-                {/* Top right corner images */}
-                {/* <View style={styles.topRightImage}></View> */}
                 <Image
                     source={require('../Assets/vector1.png')}
                     style={styles.topRightImage }
                 />
-                {/* <Image
-                    source={require('../Assets/vector2.png')}
-                    style={styles.topRightImage}
-                /> */}
-                {/* <View style={styles.topRightImage}></View> */}
+               
             </View>
 
             <View style={styles.content}>
-                {/* Placeholder for the pink image */}
                 <View style={styles.imagePlaceholder}></View>
 
                 {/* Text content */}
@@ -41,11 +34,7 @@ const CustomCard = () => {
             </View>
 
             <View style={styles.bottomLeftImagesContainer}>
-                {/* Bottom left corner images */}
-                {/* <Image
-                    source={require('../Assets/vector3.png')}
-                    style={{ width: ht(20), height: vt(17) }}
-                /> */}
+             
                 <Image
                     source={require('../Assets/vector4.png')}
                     style={styles.bottomLeftImage}

@@ -44,7 +44,7 @@ const Home = () => {
                         <Text style={styles.headerSubText}>Dream Sector!</Text>
                     </View>
                     <Image
-                        source={require('../Assets/header.png')} // For local image
+                        source={require('../Assets/header.png')} 
                         style={styles.headerImage}
                     />
                 </View>
@@ -183,39 +183,6 @@ const Home = () => {
     );
 };
 
-// const ScreenTwo = () => {
-//   return (
-//     <ScrollView style={styles.container}>
-//       {/* Header Section */}
-//       <View style={styles.headerTwo}>
-//         <Text style={styles.headerText}>Hello,</Text>
-//         <Text style={styles.headerSubText}>Fancy for a wash today?</Text>
-//         <View style={styles.searchContainer}>
-//           <TextInput style={styles.searchInput} placeholder="What are you looking for?" />
-//         </View>
-//       </View>
-
-//       {/* Featured Banner */}
-//       <View style={styles.banner}>
-//         <Text style={styles.bannerText}>All-New Groomers in Town!</Text>
-//         <Text style={styles.bannerSubText}>BOOK NOW! -20%</Text>
-//       </View>
-
-//       {/* Popular Services */}
-//       <View style={styles.popularServices}>
-//         <Text style={styles.sectionTitle}>Popular Services</Text>
-//         <View style={styles.serviceRow}>
-//           <View style={styles.service}>
-//             <Text>Pet Grooming</Text>
-//           </View>
-//           <View style={styles.service}>
-//             <Text>Pet Walking</Text>
-//           </View>
-//         </View>
-//       </View>
-//     </ScrollView>
-//   );
-// };
 
 const styles = StyleSheet.create({
     container: {

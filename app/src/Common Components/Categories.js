@@ -12,7 +12,7 @@ const CategoryButton = ({ text, image, colors, width, marginLeft, borderColor, o
             <LinearGradient
                 colors={colors}
                 style={[styles.gradient]}
-                start={{ x: 0, y: 0 }} // Start from the left
+                start={{ x: 0, y: 0 }} 
                 end={{ x: 1, y: 0 }}
             >
                 <Image source={image} style={styles.icon} />
